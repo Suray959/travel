@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.body{
+  display: flex;
+  justify-content: center;
+  margin-left: 450px;
+  width: 800px;
+  height: 600px;
+  background-color: rgba(9, 9, 9, 0.344);
+  border:0;
+  border-radius: 20px;
+  box-shadow: 5px 10px 15px white;
+}
+.body input {
+  border: 0;
+  border-radius: 10px;
+  background-color: rgba(248, 248, 249, 0.925);
+  color:black;
+  font-size: 12px;
+
+}
+.card{
+  margin-top: 40px;
+  margin-left: 90px;
+}
+.card h2{
+  margin-left:100px ;
+  margin-top: -30px;
+  font-size: 20px;
+  font-family:Montserrat ;
+  color: rgb(169, 86, 13);
+}
+
+.name{
+  width:250px;
+  height: 30px;
+  padding: 5px 4px 5px 10px;
+}
+.trip{
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  font-family:Montserrat ;
+  color: white;
+}
+.trip h4{
+  font-size: 15px;
+  font-family:Montserrat ;
+  color: white;
+}
+.road{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  gap: 20px;
+}
+.road input{
+  width: 250px;
+  height: 40px;
+  box-sizing: border-box;
+  padding: 5px 5px 5px 15px;
+}
+.choose{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin-left: 15px;
+}
+.choose input{
+  width: 110px;
+  height: 30px;
+  font-size: 12px;
+  font-family:Montserrat ;
+  padding: 5px 5px 8px 5px;
+}
+.carriage{
+  display: flex;
+ flex-direction: column;
+ margin-top: -10px;
+}
+.carriage h5{
+  font-size: 15px;
+  font-family:Montserrat ;
+  font-weight: bold;
+  color: white;
+}
+.class{
+  font-family:Montserrat ;
+  margin-top: 5px;
+  font-size: 15px;
+  color: white;
+}
+.radio{
+display: flex;
+flex-direction: row;
+gap: 10px;
+margin-right: 50px;
+}
+.radio label{
+  border: 0;
+  background-color:rgb(237, 233, 233,0.312);
+  width: 80px;
+  height: 18px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family:'Times New Roman', Times, serif ;
+  color: black;
+}
+.radio label:hover{
+background-color: rgb(63, 192, 212);
+}
+.button{
+  background-color: rgb(5, 94, 108 ,0.458);
+  border: 0;
+  border-radius: 5px;
+  width: 100px;
+  height: 25px;
+  margin-top: -5px;
+  margin-left: 350px;
+  font-weight: 200;
+  font-family:Montserrat ;
+  font-size: 13px;
+  font-weight: bold;
+  color: white;
+}
+.button:hover{
+  background-color: rgb(35, 118, 220);
+}
+.thank {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: fixed;
+  top: 55%;
+  margin-left: 390px;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  text-align: center;
+  font-family:Montserrat ;
+  font-size: 15px ;
+  color: rgb(10, 10, 10);
+}
+.paragraph{
+  background-color: rgb(229, 223, 223,0.87);
+  text-align: center;
+  font-size: 15px;
+  width: 300px;
+  height: 100px;
+
+}
+.paragraph p{
+  color: red;
+  margin-top: 30px;
+}
+.thank button{
+  margin-top: 50px;
+  width: 100px;
+  height: 40px;
+  margin-left: 90px;
+  background-color: rgba(233, 240, 233, 0.545);
+  border: 0;
+  border-radius: 10px;
+  font-family:Montserrat ;
+  font-size: 15px ;
+  font-weight: bold;
+  color: white;
+}
+
+.thank button:hover{
+  background-color: rgb(21, 105, 157);
+}
+.price{
+  display: flex;
+  flex-direction: column;
+  font-family:Montserrat ;
+  font-size: 15px ;
+  color: white;
+
+}
+.num{
+  display: flex;
+  flex-direction: row;
+}
+.num input{
+  width: 100px;
+  height: 20px;
+  padding: 5px 5px 5px 12px;
+  font-size: 15px;
+  text-align: right;
+}
+

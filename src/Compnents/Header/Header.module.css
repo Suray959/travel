@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Montserrat, sans-serif;
+}
+
+.navbar{
+    margin-top: -50px;
+    margin-bottom: 50px;
+    background-color: rgba(219, 219, 222, 0.724);
+}
+
+.head h2{
+    margin-top: 30px;
+    margin-left: 0px;
+    color: rgb(6, 116, 124);
+    font-family: Montserrat;
+    font-size: 20px;
+}
+
+.head strong{
+    color: rgb(176, 103, 15);
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.head li {
+    margin-top: 60px;
+    list-style: none;
+}
+
+.head li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Montserrat;
+    color: white;
+    font-weight: bold;
+    margin-left: 150px;
+}
+
+.head img{
+    width: 40px;
+    height: 40px;
+    margin-top: 43px;
+    margin-right: 150px;
+}
+
+.icon {
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    z-index: 1000;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    background-color: rgba(237, 237, 237, 0.258);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebarOpen {
+    width: 300px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 100px;
+}
+
+.sidebar ul li {
+    margin-top: 10px;
+    padding: 8px 8px 8px 32px;
+    text-align: left;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(214, 111, 22);
+}
+
+.sidebar ul li a:hover {
+    color: #caaa0e;
+}

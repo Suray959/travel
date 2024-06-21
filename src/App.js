@@ -9,6 +9,8 @@ import Layout from '../src/./Compnents/./Layout/Layout';
 import Ticket from '../src/./Compnents/./pages/./Ticket/Ticket'
 import videoBg from '../src/./Compnents/./image/videoBg.mp4'
 import Sign from './Compnents/pages/Sign/Sign';
+import Romantic from '../src/./Compnents/pages/Romantic/Romantic';
+import Adventure from './Compnents/pages/Adventure/Adventure';
 
 
 function App() {
@@ -21,11 +23,14 @@ function App() {
         <Router>
         <Layout>
           <Routes>
-            <Route path='/home' element={<Home />} />
-            <Route path='/' element={<About/>} />
-            <Route path='/Ticket' element={<Ticket />} />
-            <Route path='/popular' element={<Popular />} />
-            <Route path='/sign' element={< Sign/>} />
+          <Route path="/home" element={<Home />} />
+              <Route path="/" element={<About />} />
+              <Route path="/ticket" element={<Ticket />} />
+              <Route path="/popular" element={<Popular />} />
+              <Route path="/sign" element={<Sign />} />
+              <Route path="/romantic" element={<Romantic />} />
+              <Route path='/adventure' element={<Adventure/>} />
+              
           </Routes>
         </Layout>
       </Router>

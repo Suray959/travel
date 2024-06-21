@@ -12,7 +12,7 @@ function Header() {
   return (
     <div className={style.body}>
       <div className={style.navbar}>
-        <div className="headline">
+        <div className={style.headline}>
           <ul className={style.head}>
             <h2><strong>SRY</strong> TRAVEL</h2>
             <li><Link to="/home">Home</Link></li>

@@ -5,17 +5,16 @@
     font-family:Montserrat ;
     background-color: rgba(219, 219, 222, 0.724);
     width: 100%;
-    padding: 1%;
-    margin: 0;
+
 }
 .footer{
-    margin-left: 250px;
     display: flex;
     justify-content: space-around;
 }
 .contact{
     display: flex;
     flex-direction: column;
+    margin-left: 150px;
 }
 
 .contact img{
@@ -25,7 +24,7 @@
     list-style: none;
 }
 .contact h3{
-    margin-top: -20px;
+    margin-top: 0px;
     font-family:Montserrat ;
     color: chocolate;
 }
@@ -36,10 +35,11 @@
 }
 .icon{
     display: flex;
-    flex-direction: row;
+   justify-content: space-around;
+    margin-left: 100px;
     gap: 20px;
     margin-left: 500px;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 .icon img{
     width: 50px;

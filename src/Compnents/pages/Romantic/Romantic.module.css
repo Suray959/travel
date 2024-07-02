@@ -50,12 +50,15 @@
 }
 .image1:hover{
   transform: translateY(50px);
+  width: 120%;
 }
 .image2:hover{
   transform: translateY(50px);
+  width: 120%;
 }
 .image3:hover{
   transform: translateY(50px);
+  width: 120%;
 }
 .button {
   width: 130px;

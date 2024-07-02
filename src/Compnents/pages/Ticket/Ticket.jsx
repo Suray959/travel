@@ -13,7 +13,8 @@ const Ticket = () => {
   };
 
   return (
-    <div className={style.body}>
+    <div className={style.main}>
+        <div className={style.body}>
       {!isSectionVisible ? (
         <div className={style.card}>
           <h2>Buy Ticket</h2>
@@ -65,6 +66,8 @@ const Ticket = () => {
         </section>
       )}
     </div>
+    </div>
+  
   );
 };
 

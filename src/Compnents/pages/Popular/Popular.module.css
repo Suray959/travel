@@ -14,6 +14,7 @@
   font-family: 'Montserrat', sans-serif;
   color:rgb(240, 179, 135);
   font-size: 25px;
+  margin-left: 150px;
 }
 
 .btn {
@@ -30,6 +31,7 @@
   width: 250px;
   height: 50px;
   background-color: chocolate;
+  margin-left: 150px;
   color: white;
   text-decoration: none;
   border: none;
